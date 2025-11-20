@@ -11,13 +11,13 @@
             padding: 0;
             box-sizing: border-box;
         }
-    body {
-        font-family: 'Georgia', serif;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 40px 20px;
-        min-height: 100vh;
-    }
-    
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
     .container {
         max-width: 900px;
         margin: 0 auto;
@@ -123,36 +123,11 @@
         margin: 30px 0;
     }
     
-    .image-placeholder {
+    .image-container img {
         width: 100%;
         max-width: 400px;
-        height: 300px;
-        margin: 20px auto;
         border-radius: 15px;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        font-size: 1.2em;
-        color: white;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        border: 3px dashed rgba(255, 255, 255, 0.5);
-        padding: 20px;
-    }
-    
-    .image-placeholder .icon-large {
-        font-size: 4em;
-        margin-bottom: 15px;
-    }
-    
-    .image-placeholder .instruction {
-        font-size: 0.9em;
-        text-align: center;
-        background: rgba(255, 255, 255, 0.2);
-        padding: 10px 20px;
-        border-radius: 8px;
-        margin-top: 10px;
     }
     
     .decorative-image {
@@ -207,6 +182,7 @@
         }
     }
 </style>
+
 </head>
 <body>
     <div class="container">
@@ -222,17 +198,14 @@
             </div>
         </div>
     <div class="content">
-        <!-- Espacio para foto principal -->
         <div class="image-container">
-            <div class="image-placeholder">
-            <img src="IMG_0496.jpeg" style="width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
-            </div>
+            <img src="IMG_0496.jpeg" alt="María del Sagrario Fregoso Frutos">
         </div>
         
         <div class="section">
             <h2 class="section-title"><span class="icon">👤</span> Who is she?</h2>
             <div class="section-content">
-                <p>Her name is <strong>María del Sagrario Fregoso Frutos</strong>. She lives in Tala, Jalisco, and she is currently a primary school teacher. She is a wonderful woman who has been an inspiration to me every day.</p>
+                <p>Her name is <strong>María del Sagrario Fregoso Frutos</strong>. She was born on July 14th, 1974, which makes her 51 years old. She lives in Tala, Jalisco, and she is currently a primary school teacher. She is a wonderful woman who has been an inspiration to me every day.</p>
             </div>
         </div>
         
@@ -246,12 +219,8 @@
                 <p>I admire my mom because she is a fantastic woman who has always supported me. She has shown incredible strength and dedication in everything she does. I love her because she has taught me the true meaning of effort and love.</p>
             </div>
         </div>
-        
-        <!-- Espacio para foto adicional -->
         <div class="image-container">
-            <div class="image-placeholder">
-            <img src="IMG_0537.jpeg" style="width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
-            </div>
+            <img src="IMG_0537.jpeg" alt="Foto de familia">
         </div>
         
         <div class="section">
@@ -283,14 +252,9 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Espacio para tercera foto -->
         <div class="image-container">
-            <div class="image-placeholder">
-            <img src="IMG_4442.jpeg" style="width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
-            </div>
+            <img src="IMG_4442.jpeg" alt="Foto de graduación">
         </div>
-        
         <div class="section">
             <h2 class="section-title"><span class="icon">💖</span> Closing</h2>
             <div class="closing">
@@ -299,21 +263,18 @@
                 <p>I am proud to call her my mother, and I admire her deeply. <span class="heart">❤️</span></p>
             </div>
         </div>
+        <div class="image-container">
+            <img src="a5c7b455-55c0-4620-9bdb-6415ed01adaO.jpeg" alt="Foto adicional">
+        </div>
+        
+        <div class="image-container">
+            <img src="95a7b1ed-7137-44ee-83b0-8ba08034c4cf.jpeg" alt="Foto adicional">
+        </div>
     </div>
-        <div class="image-container">
-            <div class="image-placeholder">
-            <img src="a5c7b455-55c0-4620-9bdb-6415ed01adaO.jpeg" style="width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
-            </div>
-        </div>
-        <div class="image-container">
-            <div class="image-placeholder">
-            <img src="95a7b1ed-7137-44ee-83b0-8ba08034c4cf.jpeg" style="width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
-            </div>
-        </div>
     
     <div class="footer">
         <p>Made with love and admiration 💝</p>
     </div>
-    </div>
+</div>
 </body>
 </html>
